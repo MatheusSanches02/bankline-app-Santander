@@ -29,7 +29,7 @@
               <input type="text" currencyMask [(ngModel)]="valor" [options]="{ prefix: 'R$ ', thousands: '.', decimal: ','}" class="form-control" id="iValor">
             </div>
             <div class="d-grid gap-2 d-md-flex ">
-                <button class="btn btn-outline-primary me-md-2" type="button" (click)="save()">Confirmar</button>
+                <button class="btn btn-outline-primary me-md-2" type="button" (click)="save()" onclick="alert('Dados Cadastrados')">Confirmar</button>
                 <a routerLink="/movimentacoes" class="btn btn-outline-secondary">Cancelar</a>
               </div>
       </div>
